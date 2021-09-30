@@ -4,7 +4,9 @@
   "description": "Provides rector rules for iserv libraries.",
   "license": "proprietary",
   "require": {
-    "php": ">=7.3"
+    "php": ">=7.3",
+    "rector/rector": "^0.11.56",
+    "symfony/dependency-injection": "^5.3"
   },
   "config": {
     "sort-packages": true
@@ -18,7 +20,16 @@
     {
       "type": "composer",
       "url": "https://composer.iserv.eu",
-      "only": ["iserv/*"]
+      "only": [
+        "iserv/*"
+      ]
     }
-  ]
+  ],
+  "extras": {
+    "cotor": {
+      "friendsofphp/php-cs-fixer": "^3.1",
+      "phpstan/phpstan": "^0.12",
+      "vimeo/psalm": "^4.10"
+    }
+  }
 }
