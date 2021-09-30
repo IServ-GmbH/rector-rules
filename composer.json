@@ -1,0 +1,24 @@
+{
+  "name": "iserv/rector-rules",
+  "type": "library",
+  "description": "Provides rector rules for iserv libraries.",
+  "license": "proprietary",
+  "require": {
+    "php": ">=7.3"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "IServ\\Library\\RectorRules\\": "src/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://composer.iserv.eu",
+      "only": ["iserv/*"]
+    }
+  ]
+}
