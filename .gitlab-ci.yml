@@ -2,3 +2,25 @@ include:
   - project: 'iserv-internal/git/ci'
     file: '/iserv-library.yml'
 
+
+php-cs-fixer:
+  stage: lint
+  before_script:
+    - mkdir -p reports
+    - /bin/phive --no-progress --home "${CI_PROJECT_DIR}/.phive" install --trust-gpg-keys "${PHIVE_GPG_KEYS}"
+  script:
+    - ./tools/php-cs-fixer.phar fix --dry-run --format=junit | tee reports/php-cs-fixer.xml
+  needs: []
+  artifacts:
+    paths:
+      - reports/php-cs-fixer.xml
+    reports:
+      junit:
+        - reports/php-cs-fixer.xml
+  rules:
+    - exists:
+        - .php_cs.dist
+    - exists:
+        - .php-cs-fixer.dist.php
+  tags:
+    - docker
