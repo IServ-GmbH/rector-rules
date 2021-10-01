@@ -8,5 +8,5 @@ use Rector\Set\Contract\SetListInterface;
 
 final class ModuleResponseSetList implements SetListInterface
 {
-    public const MODULE_RESPONSE_2 = __DIR__ . '/../../config/sets/iserv/module-response/module-response2.php';
+    public const MODULE_RESPONSE_20 = __DIR__ . '/../../config/sets/iserv/module-response/module-response20.php';
 }
