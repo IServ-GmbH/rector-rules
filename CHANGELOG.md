@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file, in reverse 
 
 ## [Unreleased]
 
+## 1.0.1 - 04.10.2021
+
+### Fixed
+
+- Removed dependency on symfony/dependency-injection.
+
 ## 1.0 - 2021-10-01
 
 ### Added
