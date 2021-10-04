@@ -2,3 +2,7 @@ include:
   - project: 'iserv-internal/git/ci'
     file: '/iserv-library.yml'
 
+default:
+  before_script:
+    # To resolve the ContainerConfigurator for static analysis. Rector itself packages these prefixed.
+    - composer require symfony/dependency-injection
