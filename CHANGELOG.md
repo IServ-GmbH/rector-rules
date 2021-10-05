@@ -4,11 +4,13 @@ All notable changes to this project will be documented in this file, in reverse 
 
 ## [Unreleased]
 
+## 1.0.2 - 2021-10-05
+
 ### Fixed
 
 - Fixed namespace in IServ sets.
 
-## 1.0.1 - 04.10.2021
+## 1.0.1 - 2021-10-04
 
 ### Fixed
 
