@@ -31,6 +31,9 @@ return static function (ContainerConfigurator $containerConfigurator): void {
                 'IServ\CoreBundle\Service\Config' => 'IServ\Library\Config\Config',
                 'IServ\CoreBundle\Twig\BootstrapSettings' => 'IServ\BootstrapBundle\Twig\BootstrapSettings',
                 'IServ\CoreBundle\Traits\PrivateConstructorTrait' => 'IServ\Library\Common\Traits\PrivateConstructorTrait',
+                'IServ\CoreBundle\Util\Quote' => 'IServ\Library\Common\Util\Quote',
+                'IServ\CoreBundle\Util\Sort' => 'IServ\Library\Common\Util\Sort',
+                'IServ\CoreBundle\Util\Text' => 'IServ\Library\Common\Util\Text',
                 'Braincrafted\Bundle\BootstrapBundle\Form\Type\BootstrapCollectionType' => 'IServ\BootstrapBundle\Form\Type\BootstrapCollectionType',
                 'Braincrafted\Bundle\BootstrapBundle\Form\Type\FormActionsType' => 'IServ\BootstrapBundle\Form\Type\FormActionsType',
                 'Braincrafted\Bundle\BootstrapBundle\Form\Type\FormStaticControlType' => 'IServ\BootstrapBundle\Form\Type\FormStaticControlType',
@@ -44,6 +47,7 @@ return static function (ContainerConfigurator $containerConfigurator): void {
             // Replace deprecated static method calls
             RenameStaticMethodRector::OLD_TO_NEW_METHODS_BY_CLASSES => ValueObjectInliner::inline([
                 new RenameStaticMethod('IServ\CoreBundle\Util\Format', 'linkify', 'IServ\CoreBundle\Util\Linkify', 'format'),
+                new RenameStaticMethod('IServ\CoreBundle\Util\File', 'streamPutContents', 'IServ\Library\Common\Util\File', 'streamPutContents'), // No rule for "quote" due to Quote in File usage
                 new RenameStaticMethod('IServ\CoreBundle\Util\Date', 'nowImmutable', 'IServ\Library\Zeit\Zeit', 'now'),
                 new RenameStaticMethod('IServ\CoreBundle\Util\Date', 'nowUtcImmutable', 'IServ\Library\Zeit\Zeit', 'nowUtc'),
                 new RenameStaticMethod('IServ\CoreBundle\Util\Date', 'createImmutable', 'IServ\Library\Zeit\Zeit', 'create'),
