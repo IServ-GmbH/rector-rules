@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file, in reverse 
 
 ## [Unreleased]
 
+## 1.1 - 2021-11-23
+
 ### Added
 
 - Added more rules to the core set. #44427
