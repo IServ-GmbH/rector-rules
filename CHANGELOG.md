@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file, in reverse 
 
 ## [Unreleased]
 
+## 1.1.1 - 2021-11-23
+
 ### Fixed
 
 - Eagerly allow upcoming rector releases.
