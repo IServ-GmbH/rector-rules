@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file, in reverse 
 
 ## [Unreleased]
 
+### Added
+
+- Added Deletable deprecations to core.
+
 ## 1.1.1 - 2021-11-23
 
 ### Fixed
