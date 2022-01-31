@@ -4,9 +4,15 @@ All notable changes to this project will be documented in this file, in reverse 
 
 ## [Unreleased]
 
+## 1.2 - 2022-01-31
+
 ### Added
 
 - Added Deletable deprecations to core.
+
+### Changed
+
+- Supported new rector versions not relying on ValueInliner.
 
 ## 1.1.1 - 2021-11-23
 
