@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file, in reverse 
 
 ## [Unreleased]
 
+### Fixed
+
+- Depend on newer rector.
+
 ## 1.2 - 2022-01-31
 
 ### Added
