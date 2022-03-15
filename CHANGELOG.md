@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file, in reverse 
 
 ## [Unreleased]
 
+### Added
+
+- MIT license.
+
+### Changed
+
+- Improved `composer.json`. #47806
+- Updated tooling.
+
 ## 1.2.1 - 2022-01-31
 
 ### Fixed

@@ -1,1 +1,1 @@
-Provides rector rules for iserv libraries.
+Provides rector rules for IServ libraries.
