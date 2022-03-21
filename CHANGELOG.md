@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file, in reverse 
 
 ## [Unreleased]
 
+## 1.3.0 - 2022-03-21
+
 ### Added
 
 - MIT license.
