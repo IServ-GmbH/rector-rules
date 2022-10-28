@@ -1,19 +1,19 @@
 {
   "name": "iserv/rector-rules",
-  "type": "library",
   "description": "Provides rector rules for IServ libraries.",
   "license": "MIT",
+  "type": "library",
   "require": {
-    "php": ">=7.3",
+    "php": ">=8.1",
     "rector/rector": "~0.12.15"
-  },
-  "config": {
-    "sort-packages": true
   },
   "autoload": {
     "psr-4": {
       "IServ\\Library\\RectorRules\\": "src/"
     }
+  },
+  "config": {
+    "sort-packages": true
   },
   "extra": {
     "cotor": {
