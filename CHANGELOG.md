@@ -4,11 +4,13 @@ All notable changes to this project will be documented in this file, in reverse 
 
 ## [Unreleased]
 
+## 1.4 - 2022-11-02
+
 ### Added
 
 - Added new rules for Core deprecations. #55200
 
-## 1.3.0 - 2022-03-21
+## 1.3 - 2022-03-21
 
 ### Added
 
