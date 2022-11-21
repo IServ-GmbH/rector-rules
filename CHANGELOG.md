@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file, in reverse 
 
 ## [Unreleased]
 
+### Changed
+
+- Updated rector compatibility. #50341
+- Bumped minimum rector version to `0.14.8`.
+
 ## 1.4 - 2022-11-02
 
 ### Added
