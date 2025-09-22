@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file, in reverse 
 
 ## [Unreleased]
 
+### Changed
+
+- Use RepoFlow as composer registry. #84249
+
 ## 1.5 - 2022-11-22
 
 ### Changed
