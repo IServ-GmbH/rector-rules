@@ -20,5 +20,15 @@
       "friendsofphp/php-cs-fixer": "^3.1",
       "vimeo/psalm": "^4.10"
     }
-  }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://composer.iserv.eu"
+    },
+    {
+      "packagist": false
+    }
+  ],
+  "homepage": "https://git.iserv.eu/iserv/lib/rector-rules"
 }
