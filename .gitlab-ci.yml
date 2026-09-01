@@ -1,5 +1,5 @@
 include:
-  - project: 'iserv-internal/git/ci'
+  - project: 'iserv/git/ci/core'
     file: '/iserv-library.yml'
 
 default:
